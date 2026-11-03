@@ -25,20 +25,18 @@
             
             <div class="col bg-7B8FA1">
                 <div class="d-grid gap-1 col mx-auto">
-                    <input type="text" class="form-control text-center mt-2" placeholder="data" aria-label="data">
-                    <button class="btn btn-success" type="button">Push</button>
-                    <button class="btn btn-danger" type="button">Pop</button>
-                    <button class="btn btn-warning" type="button">Peek</button>
-                    <button class="btn btn-light" type="button">Clear</button>
+                    <input type="text" id= "st_data" class="form-control text-center mt-2" placeholder="data" aria-label="data">
+                    <button id="btn_push" class="btn btn-success" type="button">Push</button>
+                    <button id="btn_pop" class="btn btn-danger" type="button">Pop</button>
+                    <button id="btn_peek" class="btn btn-warning" type="button">Peek</button>
+                    <button id="btn_clear" class="btn btn-light" type="button">Clear</button>
                 </div>
             </div>
             <div id="stack" class="d-block justify-content-center col bg-dark">
-                
+                <!-- Stack elements will be added here -->
             </div>
-            <div class="col popped bg-9C254D">
-                <div class="row pop text-bg-danger border border-light">
-                    500
-                </div>
+            <div id="popped" class="col popped bg-9C254D">
+                <!-- Popped elements will be added here -->
             </div>
         </div>
         
